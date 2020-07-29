@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -95,11 +96,39 @@ body{
     font-size: 5em;
     font-family: 'Federo', sans-serif;
 }
+.body-wrapper .portfolio-content{
+    flex-grow: 1;
+    background: black;
+}
+.body-wrapper .portfolio-content .portfolio-starter .portfolio-heading{
+    width: 100%;
+    
+    margin: auto;
+    padding: 1em;
+    font-size: 4em;
+}
+.body-wrapper .portfolio-content .portfolio-starter .portfolio-heading pre{
+    font-family: 'Syncopate', sans-serif;
+}
+.body-wrapper .portfolio-content .work-container div{
+    width: 50%;
+}
+.body-wrapper .portfolio-content .work-container{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 3em;
+}
+.body-wrapper .portfolio-content .work-container .work-description{
+    
+}
+.body-wrapper .portfolio-content .portfolio-starter .showreel video{
+    margin: auto;
+}
 .footer-wrapper .social-media-icons{
     float: right;
 }
 
-@media screen and (max-width:300px){
+@media screen and (max-width:400px){
     body{
         padding: 2em 1em;
     }
