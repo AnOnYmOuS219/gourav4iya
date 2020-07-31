@@ -3,69 +3,125 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gourav4iya</title>
-    <link href="./public/css/vivify.min.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <title>gourav4iya</title>
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="./public/css/index.css">
+    <link rel="stylesheet" type="text/css" href="./font/flaticon.css">
 </head>
 
 <body>
-    <div id="customSideNav" class="nav-bar">
-        <ul class="driveInLeft delay-1500">
-            <li onclick="closeNav()">&times;</li>
-            <li>Home</li>
-            <li>Portfolio</li>
-            <li>About</li>
-        </ul>
-    </div>
-    <div class="body-wrapper">
-        <div>
-            <div class="header-wrapper driveInLeft">
-                <div class="three-line-button" onclick="openNav()">
-                    <div class="three-line1"></div>
-                    <div class="three-line2"></div>
-                    <div class="three-line3"></div>
+    <header>
+        <div class="nav-container">
+            <nav class="vg-flex items-center justify-bw">
+                <div class="nav-left vg-flex items-center">
+                    <div class="branding">gourav4iya</div>
+                    <div>
+                        <a href="#">Home</a>
+                        <a href="#">Work</a>
+                        <a href="#">About</a>
+                    </div>
                 </div>
-                <div class="creator-name">gourav.4iya</div>
+                <div class="nav-right">
+                    <button class="vg-btn vg-btn-primary">Contact</button>
+                </div>
+            </nav>
+            <div class="portfolio-content vg-flex items-center justify-bw">
+                <div class="nav-left vg-flex-1 vg-flex justify-center">
+                    <img src="./images/img1.png">
+                </div>
+                <div class="nav-right vg-flex-1">
+                    <h6>Gourav Chariya</h6>
+                    <h1>content + creativity = <span>me</span></h1>
+                    <p>
+                        From creating digital content to cinematography to visual effects, passion is what drives me
+                        My creativity lies in my passion. Why don't use test me out? Check out my work and let
+                        your mind decide whether your work is gonna be my responsibility or not?
+                    </p>
+                    <div>
+                        <button class="vg-btn vg-btn-secondary">download cv</button>
+                    </div>
+                </div>
             </div>
-            <div></div>
         </div>
-        <div class="main-content">
-            <div class="features-slideshow">
-                <div class="mySlides animate__animate animate__flipInX ">
-                    Visual FX Artist
-                </div>
-                <div class="mySlides animate__animated animate__flipInX">
-                    Raster Graphics Editor
-                </div>
-                <div class="mySlides animate__animated animate__flipInX">
-                    Photographer
-                </div>
-                <div class="mySlides animate__animated animate__flipInX">
-                    Digital Marketer
-                </div>
+    </header>
+    <section class="about">
+        <div class="vg-container1 vg-flex items-center">
+            <div class="vg-flex-1">
+                <img class="about-me-img" src=" ./images/img2.jpg">
+            </div>
+            <div class="vg-flex-1">
+                <h1>About <span>Me</span></h1>
+                <h3>Hello! I'm Gourav 4iya</h3>
+                <p>
+                    From creating digital content to cinematography to visual effects, passion is what drives me
+                    My creativity lies in my passion. Why don't use test me out? Check out my work and let
+                    your mind decide whether your work is gonna be my responsibility or not?
+                    From creating digital content to cinematography to visual effects, passion is what drives me
+                    My creativity lies in my passion. Why don't use test me out? Check out my work and let
+                    your mind decide whether your work is gonna be my responsibility or not?
 
-            </div>
-        </div>
-        <div>
-            <div class="footer-wrapper">
-                <div class="animate__animated animate__fadeInUp">
-                    +911234567890 | gourav.4iya@email.com
-                </div>
-                <div class="social-media-icons">
-                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </p>
+                <div class="social">
+                    <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
-    </div>
-    <script src="./public/js/jquery-3.5.1.min.js"></script>
-    <script src="./public/js/index.js"></script>
+    </section>
+    <section class="skills">
+        <div class="vg-container1">
+            <h1 class="section-heading"><span>Skills</span> Section</h1>
+            <p>Check out my skills</p>
+            <div class="vg-card-wrapper">
+                <div class="vg-card">
+                    <div class="skill-icon-wrapper">
+                        <i class="flaticon-photoshop-1" aria-hidden="true"></i>
+                    </div>
+                    <h2>Photography</h2>
+                    <p>Lorem ipsum camera photography is the main skill. Use it to enhance your business.</p>
+                </div>
+                <div class="vg-card">
+                    <div class="skill-icon-wrapper">
+                        <i class="flaticon-director-chair" aria-hidden="true"></i>
+                    </div>
+                    <h2>Cinematography</h2>
+                    <p>Lorem ipsum camera photography is the main skill. Use it to enhance your business.</p>
+                </div>
+                <div class="vg-card">
+                    <div class="skill-icon-wrapper">
+                        <i class="flaticon-photoshop" aria-hidden="true"></i>
+                    </div>
+                    <h2>Photography</h2>
+                    <p>Lorem ipsum camera photography is the main skill. Use it to enhance your business.</p>
+                </div>
+                <div class="vg-card">
+                    <div class="skill-icon-wrapper">
+                        <i class="flaticon-premier" aria-hidden="true"></i>
+                    </div>
+                    <h2>Photography</h2>
+                    <p>Lorem ipsum camera photography is the main skill. Use it to enhance your business.</p>
+                </div>
+                <div class="vg-card">
+                    <div class="skill-icon-wrapper">
+                        <i class="flaticon-production" aria-hidden="true"></i>
+                    </div>
+                    <h2>Photography</h2>
+                    <p>Lorem ipsum camera photography is the main skill. Use it to enhance your business.</p>
+                </div>
+                <div class="vg-card">
+                    <div class="skill-icon-wrapper">
+                        <i class="flaticon-digital-marketing"></i>
+                    </div>
+                    <h2>Photography</h2>
+                    <p>Lorem ipsum camera photography is the main skill. Use it to enhance your business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>

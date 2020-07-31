@@ -1,0 +1,190 @@
+@import 'utilities.css';
+:root{
+    --primary: #3DCFD3;
+    --dark: #161616;
+    --pure: #ffffff;
+    --ternary: #898989;
+    --light: #f2f2f2;
+    --secondary: #070606;
+}
+section.skills .vg-card-wrapper .vg-card:hover{
+    background: var(--dark);
+} 
+section.skills .vg-card-wrapper .vg-card:hover h2,section.skills .vg-card-wrapper .vg-card:hover p{
+    color: var(--pure);
+} 
+section.skills .vg-card-wrapper .vg-card p{
+    line-height: 1.3;
+    color: var(--ternary);
+
+}
+section.skills .vg-card-wrapper .vg-card h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+section.skills .vg-card-wrapper .vg-card .skill-icon-wrapper{
+    position: absolute;
+    top: -2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.skill-icon-wrapper{
+    padding: 1rem;
+    background: var(--primary);
+    width: fit-content;
+}
+section.skills .vg-card-wrapper .vg-card{
+    background: var(--pure);
+    padding: 3rem 2rem;
+    position: relative;
+    padding-top: 5rem;
+    text-align: center;
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+section.skills .vg-card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 5rem;
+}
+section.skills{
+    background: var(--light);
+}
+.section-heading span{
+    color: var(--primary);
+}
+.section-heading + p{
+    text-align: center;
+    margin-bottom: 6rem;
+    color: var(--ternary);
+}
+.section-heading{
+    color: var(--secondary);
+    text-align: center;
+    line-height: 0.5;
+    margin-bottom: 1rem;
+}
+section.about .social a:hover{
+    background: var(--primary);
+}
+section.about .social a{
+    background: var(--dark);
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-decoration: none;
+    color: var(--pure);
+    margin-right: 0.6em;
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+.vg-container1{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 900px;
+}
+section.about p{
+    color:  var(--ternary);
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+section.about h1{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+section.about h1 span{
+    color: var(--primary);
+}
+section.about h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+section.about img.about-me-img{
+    height: 450px;
+}
+section{
+    padding: 6rem 0;
+}
+.portfolio-content .nav-right{
+    margin-top: -5rem;
+}
+.portfolio-content{
+    padding: 0 0 3rem 0;
+}
+.portfolio-content .nav-right p{
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+.portfolio-content .nav-right h6{
+    font-size: 1.2rem;
+    color: var(--primary);
+}
+.portfolio-content .nav-right h1 span{
+    color: var(--primary);
+}
+.portfolio-content .nav-right h1{
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+.portfolio-content .nav-right{
+    color: var(--pure);
+}
+.portfolio-content .nav-left img{
+    width: 400px;
+}
+header .nav-container nav{
+    padding: 2rem 0;
+}
+header .nav-container nav .nav-left .branding{
+    font-size: 30px;
+    color: var(--pure);
+    margin-right: 3rem;
+}
+header .nav-container nav .nav-left a:hover{
+    color: var(--primary);
+}
+header .nav-container nav .nav-left a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+}
+header .nav-container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header{
+    background: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 82%, 0 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
